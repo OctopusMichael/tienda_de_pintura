@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "linea": "images/lineaDeMadera/madera1.jpg"
+  },
+  {
+    "id": 1,
+    "linea": "images/lineaDeMadera/madera2.jpg"
+  },
+  {
+    "id": 2,
+    "linea": "images/lineaDeMadera/madera3.jpg"
+  },
+  {
+    "id": 3,
+    "linea": "images/lineaDeMadera/madera4.jpg"
+  },
+  {
+    "id": 4,
+    "linea": "images/lineaDeMadera/madera5.jpg"
+  },
+  {
+    "id": 5,
+    "linea": "images/lineaDeMadera/madera6.jpg"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "banner": "images/banner/banner1.jpg"
+  },
+  {
+    "id": 1,
+    "banner": "images/banner/banner2.jpg"
+  },
+  {
+    "id": 2,
+    "banner": "images/banner/banner3.jpg"
+  },
+  {
+    "id": 3,
+    "banner": "images/banner/banner4.jpg"
+  }
+]

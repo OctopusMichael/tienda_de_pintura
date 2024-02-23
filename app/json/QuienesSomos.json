@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "avatar": "images/QuienesSomos/GerenteIPC.png",
+    "titulo": "Gerente",
+    "direccion": "Calle 42 # 33-85",
+    "telefono": "379 0404",
+    "name": "Jorge Martínez",
+    "email": "gerencia@ipcmaderflex.com"
+  },
+  {
+    "id": 1,
+    "avatar": "images/QuienesSomos/KELLYIPC.png",
+    "titulo": "vendedor",
+    "direccion": " Cesar (Valledupar y parte del departamento), Barranquilla",
+    "ws": "301 2796583",
+    "name": "Kelly Florez",
+    "email": "kflorez@ipcmaderflex.com"
+  },
+  {
+    "id": 2,
+    "avatar": "images/QuienesSomos/ISAC.png",
+    "titulo": "vendedor",
+    "direccion": " Bolívar (San Juan, San Jacinto, Carmen de Bolívar, Magangué) y Barranquilla.",
+    "ws": "3045336583",
+    "name": "Isaac Martínez",
+    "email": "imartinez@ipcmaderflex.com"
+  },
+  {
+    "id": 3,
+    "avatar": "images/QuienesSomos/CelisIPC.png",
+    "titulo": "vendedor",
+    "direccion": "Magdalena, Guajira y Barranquilla.",
+    "ws": "300 5171588",
+    "name": "Celis Figueroa",
+    "email": "cfigueroa@ipcmaderflex.com"
+  },
+  {
+    "id": 4,
+    "avatar": "images/QuienesSomos/MERLYSIPC.png",
+    "titulo": "vendedor",
+    "direccion": "Cartagena",
+    "ws": "304 6176682",
+    "name": "Merlys Vergara",
+    "email": "mvergara@ipcmaderflex.com"
+  },
+  {
+    "id": 5,
+    "avatar": "images/QuienesSomos/DAVIDIPC.png",
+    "titulo": "vendedor",
+    "direccion": "Sincelejo",
+    "ws": "304 6531024",
+    "name": "David Arrieta",
+    "email": "darrieta@ipcmaderflex.com"
+  }
+]

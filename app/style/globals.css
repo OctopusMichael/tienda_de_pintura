@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1440px] mx-auto;
+  }
+
+  .btn-hover {
+    @apply transition-all duration-200 ease-in-out hover:scale-110 scale-90  opacity-90;
+  }
+}
+
+header {
+  background-image: url(../assets/images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

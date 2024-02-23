@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "linea": "images/listaDeProductos/linea-Madera.png",
+    "route": "/LineaDeMadera"
+  },
+  {
+    "id": 1,
+    "linea": "images/listaDeProductos/linea-arquitectonica.png",
+    "route": "/LineaArquitectonica"
+  },
+  {
+    "id": 2,
+    "linea": "images/listaDeProductos/linea-industrial.png",
+    "route": "/LineaIndustrial"
+  }
+]

@@ -5,7 +5,6 @@ import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { ChevronDown, ChevronUp, Menu, X } from "lucide-react";
 import useWindowSize from "../hook/useWindowSize";
-import { menu, lineas } from "../utilities/Constants";
 
 const Navbar = () => {
   const [navMenu, setNavMenu] = useState(false);
@@ -44,6 +43,47 @@ const Navbar = () => {
       setNavMenuMobile(false);
     }
   }, [width]);
+
+  const menu = [
+    {
+      id: 0,
+      section: "Inicio",
+      route: "/",
+    },
+    {
+      id: 1,
+      section: "Quienes Somos",
+      route: "/QuienesSomos",
+    },
+    {
+      id: 2,
+      section: "Nuestros Productos",
+      route: [],
+    },
+    {
+      id: 3,
+      section: "Contactenos",
+      route: "/Contactenos",
+    },
+  ];
+
+  const lineas = [
+    {
+      id: 0,
+      route: "/LineaDeMadera",
+      titulo: "Línea Para Madera",
+    },
+    {
+      id: 1,
+      route: "/LineaArquitectonica",
+      titulo: "Línea Arquitectónica",
+    },
+    {
+      id: 2,
+      route: "/LineaIndustrial",
+      titulo: "Línea Industrial",
+    },
+  ];
 
   return (
     <section className={`w-full mx-auto flex justify-between`}>

@@ -29,6 +29,8 @@ const Navbar = () => {
 
   const handleMenuMobile = () => {
     setNavMenuMobile(!navMenuMobile);
+    setNavMenu(false)
+    
   };
 
   const handleMenu = () => {

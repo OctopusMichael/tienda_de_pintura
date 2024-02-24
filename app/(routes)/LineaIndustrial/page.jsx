@@ -7,7 +7,7 @@ const page = () => {
     <section className="container flex flex-col justify-center">
       <ScrollToTop />
       <img
-        className="w-[100%] aspect-auto max-w-[1440px]    h-auto mx-auto "
+        className="w-[100%] aspect-[181/61] max-w-[1440px]    h-auto mx-auto "
         src="images/lineaIndustrial/header.png"
         alt="banner top"
       />

@@ -10,7 +10,7 @@ const page = () => {
     >
       <ScrollToTop />
       <img
-        className="aspect-auto max-w-[1440px] w-full h-auto"
+        className="aspect-[39/10] max-w-[1440px] w-full h-auto"
         src="images/lineaDeMadera/header.jpg"
         alt="banner top"
       />

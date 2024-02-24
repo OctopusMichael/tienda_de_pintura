@@ -17,7 +17,7 @@ const Banner = () => {
         >
           {banner.map((e) => (
             <swiper-slide key={e.id}>
-              <img className="h-auto w-full max-w-[1440px] md:w-full cursor-pointer aspect-[1092/280] " src={e.banner} alt="" />
+              <img className="h-auto w-full max-w-[1440px] md:w-full cursor-pointer  " src={e.banner} alt="" />
             </swiper-slide>
           ))}
         </swiper-container>

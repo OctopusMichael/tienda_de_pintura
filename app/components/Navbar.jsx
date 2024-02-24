@@ -29,8 +29,7 @@ const Navbar = () => {
 
   const handleMenuMobile = () => {
     setNavMenuMobile(!navMenuMobile);
-    setNavMenu(false)
-    
+    setNavMenu(false);
   };
 
   const handleMenu = () => {
@@ -162,6 +161,7 @@ const Navbar = () => {
                 </button>
               ) : (
                 <Link
+                  onClick={() => setNavMenu(false)}
                   className={`${
                     pathname === e.route ? "text-blue-400" : "text-blue-400"
                   } hover:text-white `}

@@ -7,16 +7,11 @@ const page = () => {
     <section className="container flex flex-col justify-center">
       <ScrollToTop />
       <img
-        className=""
+        className="w-[100%] aspect-auto max-w-[1440px]    h-auto mx-auto "
         src="images/lineaIndustrial/header.png"
         alt="banner top"
       />
-    {/*   <h1
-        id="catalogoIndustrial"
-        className="text-center text-5xl text-black p-5 font-bold mt-5"
-      >
-        LÍNEA INDUSTRIAL{" "}
-      </h1> */}
+
       <div className="flex md:flex-row flex-col gap-5  justify-center items-center  my-5 p-5 md:p-0">
         <img
           className="w-[300px]  h-auto"

@@ -10,7 +10,7 @@ const page = () => {
     >
       <ScrollToTop />
       <img
-        className=""
+        className="aspect-auto max-w-[1440px] w-full h-auto"
         src="images/lineaDeMadera/header.jpg"
         alt="banner top"
       />
@@ -19,7 +19,7 @@ const page = () => {
       </h1> */}
       <div className="flex md:flex-row flex-col gap-5  justify-center items-center  mb-y p-5 md:p-0 ">
         <img
-          className="w-[300px]  h-auto"
+          className="w-[300px]  h-auto "
           src="images/listaDeProductos/linea-Madera.png"
           alt="Linea arquitectonica"
         />
@@ -36,14 +36,12 @@ const page = () => {
       <hr />
 
       {linea.map((e) => (
-        <section key={e.id}>
-          <img
-            className="w-[100%] md:w-[80%] h-auto mx-auto mt-5"
-            src={e.linea}
-            alt={e.linea}
-          />
-          <hr />
-        </section>
+        <img
+          key={e}
+          className="w-[100%] aspect-auto max-w-[1440px]   md:w-[80%] h-auto mx-auto mt-5"
+          src={e.linea}
+          alt={e.linea}
+        />
       ))}
     </section>
   );

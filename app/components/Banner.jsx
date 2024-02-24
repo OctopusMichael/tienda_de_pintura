@@ -7,7 +7,7 @@ register();
 const Banner = () => {
   return (
     <>
-      <section className="md:w-[1440px] mx-auto  bg-black h-[60px]  md:h-[24vh]  overflow-y-hidden   ">
+      <section className="md:w-[1440px] mx-auto   h-[60px]  md:h-[24vh]  overflow-y-hidden   ">
         <swiper-container
           slides-per-view="1"
           loop="infinite"
@@ -17,7 +17,7 @@ const Banner = () => {
         >
           {banner.map((e) => (
             <swiper-slide key={e.id}>
-              <img className="w-[400px] md:w-full cursor-pointer  " src={e.banner} alt="" />
+              <img className="h-auto w-full max-w-[1440px] md:w-full cursor-pointer aspect-[1092/280] " src={e.banner} alt="" />
             </swiper-slide>
           ))}
         </swiper-container>

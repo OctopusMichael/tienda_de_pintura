@@ -7,7 +7,7 @@ const page = () => {
     <section className=" container mt-5 flex flex-col gap-10 p-5 md:p-0">
       <div className="flex flex-col gap-5  items-center justify-center p-2">
         <img
-          className="rounded-xl"
+          className="rounded-xl aspect-[1134/425] w-full max-w-[1300px] h-auto" 
           src="images/QuienesSomos/grupal.jpg"
           alt="foto grupal"
         />

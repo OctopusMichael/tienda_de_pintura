@@ -4,19 +4,17 @@ import ScrollToTop from "@/app/components/ScrollToTop";
 
 const page = () => {
   return (
-    <section  className="container flex flex-col justify-center">
-      <ScrollToTop  />
+    <section className="container flex flex-col justify-center">
+      <ScrollToTop />
       <img
-        className=""
+        className="w-full max-w-[1440px] aspect-auto"
         src="images/lineaArquitectonica/header.jpg"
         alt="banner top"
       />
-     {/*  <h1 className="text-center text-5xl text-black p-5 font-bold mt-5">
-        LÍNEA ARQUITECTÓNICA{" "}
-      </h1> */}
+
       <div className="flex md:flex-row flex-col gap-5  justify-center items-center  my-5 p-5 md:p-0 ">
         <img
-          className="w-[300px]  h-auto"
+          className="w-[300px]  h-auto aspect-auto"
           src="images/listaDeProductos/linea-arquitectonica.png"
           alt="Linea arquitectonica"
         />
@@ -33,7 +31,7 @@ const page = () => {
       {linea.map((e) => (
         <section key={e.id}>
           <img
-            className="w-[100%] md:w-[80%] h-auto mx-auto mt-5"
+            className="w-[100%] md:w-[80%] h-auto mx-auto mt-5 aspect-auto"
             src={e.linea}
             alt={e.linea}
           />

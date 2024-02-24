@@ -23,7 +23,7 @@ const QuienesSomos = () => {
         </p>
       </article>
       <img
-        className="rounded-3xl md:order-2 order-1"
+        className="rounded-3xl md:order-2 order-1 "
         src="images/new.jpg"
         alt="imagen de prueba"
       />
